@@ -1,0 +1,33 @@
+packages/opencode/test/fixture/mcp-session-recovery.ts
+  s_03e4de81b86dc9::t_d926e65110e023 64-71
+packages/opencode/test/mcp/catalog.test.ts
+  s_03e4de81b86dc9::t_d140283f3cd972 31-34,43-46
+packages/opencode/test/mcp/era.test.ts
+  s_03e4de81b86dc9::t_ee1ade90fa2375 50
+packages/opencode/src/mcp/catalog.ts
+  s_5fde0a80dbc5b5::t_a967fdb5293105 1,4,8-18,22-24,26-55,58-62,64,66,71,74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3720f50342bcec0e71f00e130459783e40591be0",
+  "prompts": {},
+  "sessions": {
+    "s_03e4de81b86dc9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "04959605-a97b-424e-ae02-6d765a5bf592",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_5fde0a80dbc5b5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a7d148382361f08fb",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}

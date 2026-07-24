@@ -1,0 +1,45 @@
+bun.lock
+  s_404633d8355141::t_64c5947fc9404a 2721,3861,6061,6081
+packages/opencode/src/mcp/index.ts
+  s_404633d8355141::t_c51f2e9f4027be 205-209,936,944,947-951,957
+packages/opencode/test/mcp/oauth-auto-connect.test.ts
+  s_90de8aa6df6bc1::t_5dda910cee897b 202-295
+packages/opencode/test/mcp/oauth-browser.test.ts
+  s_074b8d4601561f::t_c9dcd69418d552 87,100
+packages/sdk/js/src/v2/gen/sdk.gen.ts
+  s_404633d8355141::t_c14fefc27597df 2331,2344
+packages/sdk/js/src/v2/gen/types.gen.ts
+  s_404633d8355141::t_3d4b23a7360741 8566
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "42804e2a73ab60a4c4235912f4d3011f774ded72",
+  "prompts": {},
+  "sessions": {
+    "s_074b8d4601561f": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "019f93ed-4d1e-73be-acb0-6f89a93e9980",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_404633d8355141": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "019f93e8-ad28-797b-8636-a6538dbbb43a",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_90de8aa6df6bc1": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "019f93e8-0720-7778-a066-738c64cde4bc",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
